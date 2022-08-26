@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+}
+#fall {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* mobile */ 
+.col {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: 2px solid grey;
+    padding: 5px;
+    overflow: auto;
+}
+
+/* tablet or small laptop */
+@media only screen and (min-width: 768px) {
+    .col {
+        width: 32%;
+        height: auto;
+    }
+}
+
+/* desktop */ 
+@media only screen and (min-width: 1000px) {
+    .col {
+        width: 19%;
+        height: 50vh;
+    }
+}
+

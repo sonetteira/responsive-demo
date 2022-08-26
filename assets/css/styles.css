@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+}
+#fall {
+    max-width: 800px;
+    width: 100%;
+}
+
+.res {
+    font-size: 3em;
+}
+
+.scaling-txt {
+    font-size: 7vw;
+}
+
+.col {
+    display: inline-block;
+    width: 19%;
+    height: 50vh;
+    vertical-align: top;
+    border: 2px solid grey;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        width: 100%;
+        height: auto;
+    }
+    
+    .res {
+        font-size: 1.5em;
+    }
+
+    .scaling-txt {
+        display: none;
+        /* margin-left: 5000px;
+        visibility: hidden; */
+    }
+}
